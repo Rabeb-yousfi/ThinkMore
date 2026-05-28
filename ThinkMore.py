@@ -26,7 +26,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # 🔑 السطر الذي يبحث عن المفتاح في إعدادات السيرفر (Secrets)
-API_KEY = st.secrets["GEMINI_KEY = "AIzaSyRB708...""]
+API_KEY = st.secrets["GEMINI_KEY"]
 
 # دالة توليد الأفكار
 def generate_nebula_idea(api_key):
